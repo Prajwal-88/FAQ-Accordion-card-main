@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- links -->
+  <!-- Css Link -->
+  <link rel="stylesheet" href="./app/dist/output.css">
+
+  <!-- js Script -->
+  <script src="./app/js/script.js" defer ></script>
+
+</head>
+<body class="min-h-screen bg-gradient-to-b from-Soft_violet to-Soft_blue grid place-items-center px-6 pt-40 pb-40 font-kumb relative text-sm">
+  <main class="bg-white max-w-_326 rounded-3xl px-5 pb-8 lg:flex lg:max-w-none lg:w-[900px] lg:overflow-hidden" style="max-height: 32rem;">
+
+    <div class="bg-mobile relative mb-32 lg:hidden">
+      <img src="./assets/images/illustration-woman-online-mobile.svg" alt="" class="w-56 mx-auto absolute -top-_26 left-8">
+      <img src="./assets/images/bg-pattern-mobile.svg" alt="" class="mx-auto absolute left-6 -top-1">
+    </div>
+    <div class="bg-destop hidden lg:block -mr-20 lg:transition-all ease-linear">
+      <img src="./assets/images/bg-pattern-desktop.svg" alt="" class="lg:-ml-72 " style="width: 69rem; margin-top: -10rem; margin-left: -24rem;">
+      <img src="./assets/images/illustration-woman-online-desktop.svg" alt="" class="" style="margin-top: -29.9rem ; margin-left: -5.5rem; width: 27rem;">
+    </div>
+
+    <div class="FAQ-sec lg:pe-16 lg:pt-14 pb-10 lg:-ml-48 lg:text-sm">
+      <h1 class="text-center text-3xl font-bold text-Very_dark_desaturated_blue mb-8  lg:text-start">FAQ</h1>
+      
+      <article class="border-b-2 border-Light_grayish_blue mb-3">
+        <h2 class="flex justify-between items-center mb-3 text-Very_dark_grayish_blue hover:text-Soft_red hover:cursor-pointer lg:w-[22rem]"  id="head1">How many team members can I invite?<span id="arrow" class="ml-6 "><img src="./assets/images/icon-arrow-down.svg" alt="" class="active:rotate-180"></span></h2>
+        <p class="text-left text-Dark_grayish_blue text-xs mb-3 lg:w-[22rem] hidden" id="par">You can invite up to 2 additional users on the Free    plan. There is no limit on team members for the Premium plan.
+        </p>
+      </article>
+
+      <article class="border-b-2 border-Light_grayish_blue mb-3">
+        <h2 class="flex justify-between items-center mb-3 text-Very_dark_grayish_blue hover:text-Soft_red hover:cursor-pointer " id="head2">What is the maximum file upload size?<span id="arrow"><img src="./assets/images/icon-arrow-down.svg" alt=""></span></h2>
+        <p class="text-left text-Dark_grayish_blue text-xs mb-3 hidden lg:w-[22rem]" id="par"> No more than 2GB. All files in your account must fit your allotted storage space.</p>
+      </article>
+
+      <article class="border-b-2 border-Light_grayish_blue mb-3">
+        <h2 class="flex justify-between items-center mb-3 text-Very_dark_grayish_blue hover:text-Soft_red hover:cursor-pointer " id="head3">How do I reset my password?<span id="arrow"><img src="./assets/images/icon-arrow-down.svg" alt=""></span></h2>
+        <p class="text-left text-Dark_grayish_blue text-xs mb-3 hidden lg:w-[22rem]" id="par">      Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.</p>
+      </article>
+
+      <article class="border-b-2 border-Light_grayish_blue mb-3">
+        <h2 class="flex justify-between items-center mb-3 text-Very_dark_grayish_blue hover:text-Soft_red hover:cursor-pointer  " id="head4">Can I cancel my subscription?<span id="arrow" class="active:rotate-180 "><img src="./assets/images/icon-arrow-down.svg" alt=""></span></h2>
+        <p class="text-left text-Dark_grayish_blue text-xs mb-3 hidden lg:w-[22rem]" id="par">      Yes! Send us a message and we’ll process your request no questions asked.</p> 
+      </article>
+
+      <article class="border-b-2 border-Light_grayish_blue mb-3">
+        <h2 class="flex justify-between items-center hover:text-Soft_red hover:cursor-pointer mb-3 text-Very_dark_grayish_blue " id="head5">
+          Do you provide additional support?<span id="arrow"><img src="./assets/images/icon-arrow-down.svg" alt=""></span></h2>
+          <p class="text-left text-Dark_grayish_blue text-xs mb-3 hidden lg:w-[22rem]" id="par">      Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </p>
+      </article>
+
+    </div>
+  </main>
+  
+  <footer class="absolute bottom-0 ">
+    <div class="attribution text-white text-center">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#" class="bg-violet-700">Prajwal dhuli</a>.
+    </div>
+  </footer>
+
+</body>
+</html>
